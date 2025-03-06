@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Birrificio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Monitoraggio Birrificio Artigianale</h1>
+    <div id="dati-tempo-reale">
+        <h2>Dati in Tempo Reale</h2>
+        <p>Temperatura: <span id="temperatura">--</span> °C</p>
+        <p>Umidità: <span id="umidita">--</span> %</p>
+        <p>pH: <span id="ph">--</span></p>
+        <p>Livello Fermentatore: <span id="livello">--</span> cm</p>
+        <p>Fase: <span id="fase">--</span></p>
+        <p>Tipo Birra: <span id="tipo-birra">--</span></p>
+    </div>
+    <div id="grafici">
+        <h2>Grafici Storici</h2>
+        <canvas id="grafico-temperatura"></canvas>
+        <canvas id="grafico-ph"></canvas>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('Birra.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #b1bebe;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #ffffff; /* Colore del testo (bianco) */
+    text-align: center; /* Centra il testo */
+    padding: 20px;
+    border: 5px solid #b1bebe; /* Bordo di colore grigio chiaro */
+    background-color: rgba(0, 174, 255, 0.815); /* Sfondo semitrasparente */
+    border-radius: 10px; /* Angoli arrotondati */
+    font-size: 3em; /* Dimensione del font aumentata per maggiore visibilità */
+    margin: 20px auto; /* Centra il titolo e aggiunge spazio sopra e sotto */
+    width: fit-content; /* Adatta la larghezza al contenuto del titolo */
+}
+
+
+.titolo-incorniciato {
+    display: inline-block;
+    border: 3px solid white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    flex-grow: 1;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#grafici {
+    background-color: rgba(238, 255, 0, 0.603);
+    display: flex;
+    flex-wrap: wrap; /* Permette ai grafici di andare a capo se non c'è abbastanza spazio */
+    justify-content: center; /* Centra i grafici */
+    align-items: center; /* Allinea i grafici verticalmente */
+    padding: 20px;
+}
+
+
+#grafici canvas {
+    width: 100px; /* Ridotto ulteriormente */
+    height: 70px; /* Ridotto ulteriormente */
+    margin: 20px; /* Spazio ridotto tra i grafici */
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.dato {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #cf6a22;
+    color: #fff;
+    margin-top: auto;
+}
+
+#dati-tempo-reale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(238, 255, 0, 0.450);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.riquadro-dato {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.riquadro-dato h3 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+.riquadro-dato p {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
